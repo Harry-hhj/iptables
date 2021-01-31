@@ -1,0 +1,3 @@
+sudo ufw enable
+sudo iptables-restore < /home/hhj/Desktop/backup/iptables.backup.rules
+sudo iptables -L

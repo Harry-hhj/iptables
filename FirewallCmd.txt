@@ -1,0 +1,5 @@
+ifconfig
+sudo ufw enable
+sudo iptables-restore < Desktop/backup/iptables.backup.rules
+sudo iptables -L
+sudo iptables -t nat -L
